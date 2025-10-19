@@ -1,10 +1,20 @@
 @import "tailwindcss";
 
+/* 🎨 Global Color Variables */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1E1E1E;
+  --foreground: #ededed;
 }
 
+/* 🌙 Optional dark mode alignment (keeps same color) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1E1E1E;
+    --foreground: #ededed;
+  }
+}
+
+/* 🧱 Tailwind theme bridge */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -12,15 +22,41 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* 🌍 Global reset + layout setup */
+html,
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh; /* ⬅️ changed from 100% to 100vh for full viewport height */
+  margin: 0;
+  padding: 0;
+
+  /* ⬇️ NEW — enables sticky footer and expanded main content */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure <main> fills remaining space between header and footer */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centers vertically */
+}
+
+/* 📦 Default link styling */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a855f7; /* Tailwind’s purple-500 */
+  transition: color 0.2s ease;
+}
+
+/* 🪄 Smooth scroll */
+html {
+  scroll-behavior: smooth;
 }
