@@ -1,4 +1,5 @@
 import { FaEnvelope, FaDiscord, FaGithub, FaLinkedin, FaSpotify } from "react-icons/fa";
+import SongSuggestion from "@/components/SongSuggestion";
 
 export default function Contacts() {
   return (
@@ -15,16 +16,15 @@ export default function Contacts() {
           idea, or just want to say hi — feel free to reach out! I’ll do my best to respond.
         </p>
 
-        {/* Contact boxes */}
-        <div className="flex flex-col md:flex-row gap-6">
-          {/* Support box 
-          <div className="flex-1 border border-gray-700 p-5 rounded-md hover:border-purple-500 transition">
-            <h2 className="text-white text-lg md:text-xl font-semibold mb-2">Support me here</h2>
-            <p className="text-gray-400 text-sm md:text-base">4159500120690030</p>
-          </div>*/}
-
+        {/* Contact + Song Suggestion section */}
+        <div className="flex flex-col md:flex-row justify-center items-start md:items-stretch gap-6 w-full">
+          {/* Song Suggestion box */}
+          <div className="flex-1">
+            <SongSuggestion />
+          </div>
+          
           {/* Message box */}
-          <div className="w-full max-w-md border border-gray-700 p-5 rounded-md hover:border-purple-500 transition">
+          <div className="md:w-2/5 border border-gray-700 p-5 rounded-md hover:border-purple-500 transition self-start">
             <h2 className="text-white text-lg md:text-xl font-semibold mb-2">Message me here</h2>
             <div className="flex flex-col gap-2 text-sm md:text-base">
               <p className="flex items-center gap-2">

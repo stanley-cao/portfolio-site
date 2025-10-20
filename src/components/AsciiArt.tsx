@@ -78,7 +78,7 @@ export default function AsciiArt() {
         {asciiArt.split("\n").map((line, i) => (
           <motion.pre
             key={i}
-            className="font-[Courier_New,monospace] text-[15px] md:text-[9px] leading-[15px] md:leading-[9px] text-purple-300 whitespace-pre tracking-normal"
+            className="font-[Courier_New,monospace] text-[8px] md:text-[9px] leading-[8px] md:leading-[9px] text-purple-300 whitespace-pre tracking-normal"
             initial="hidden"
             animate="visible"
             variants={lineVariants}

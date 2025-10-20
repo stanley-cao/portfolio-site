@@ -12,13 +12,12 @@ export default function Hero() {
             <span className="text-gray-300 block">Stanley Cao</span>
             <span className="text-purple-400">designer,</span>
             <span className="text-purple-400"> developer,</span> and{" "}
-            <span className="text-purple-400">creator.</span>
+            <span className="text-purple-400">foodie.</span>
           </h1>
   
           <p className="text-gray-400 mb-8">
-            I'm a software engineer specializing in building (and occasionally
-            designing) exceptional digital experiences. Currently, I'm focused on
-            building responsive full-stack web applications.
+            I am a Computer Science student currently seeking new graduate opportunities in Software Engineering.
+            I love building (and occasionally designing) fun digital experiences.
           </p>
   
           <a 
