@@ -6,7 +6,6 @@ export default function SongSuggestion() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(true);
 
-  // Fetch latest song suggestion from Supabase API route
   useEffect(() => {
     fetch("/api/song")
       .then((res) => res.json())

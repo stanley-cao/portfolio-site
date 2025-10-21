@@ -42,6 +42,3 @@ export default function Navbar() {
     </nav>
   );
 }
-  {/*<div className="text-purple-400 font-semibold text-lg">Stanley</div>*/}
-
-  {/* bg-[#1a1a1a]  border-b border-gray-800*/}

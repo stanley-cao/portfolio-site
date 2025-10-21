@@ -22,5 +22,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-{/* bg-[#1a1a1a] */ }

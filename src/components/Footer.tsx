@@ -24,4 +24,3 @@ export default function Footer() {
   );
 }
 
-{/* border-t border-gray-800 */}
