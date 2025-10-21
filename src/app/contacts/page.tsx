@@ -41,10 +41,10 @@ export default function Contacts() {
         <div>
           <h3 className="text-purple-400 text-xl md:text-2xl font-bold mb-3">#all-media</h3>
           <div className="flex items-center gap-6 text-gray-400 text-2xl">
-            <a href="https://github.com/stanleycao24" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">
+            <a href="https://github.com/stanley-cao" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com/in/stanleycao24" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">
+            <a href="https://www.linkedin.com/in/stanley-cao/" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">
               <FaLinkedin />
             </a>
             <a href="mailto:stanleycao24@gmail.com" className="hover:text-purple-400 transition">
