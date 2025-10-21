@@ -1,4 +1,4 @@
-import { FaEnvelope, FaDiscord, FaGithub, FaLinkedin, FaSpotify } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaSpotify } from "react-icons/fa";
 import SongSuggestion from "@/components/SongSuggestion";
 
 export default function Contacts() {
