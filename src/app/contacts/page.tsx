@@ -31,7 +31,7 @@ export default function Contacts() {
                 <FaLinkedin className="text-purple-400 text-lg" /> Stanley Cao
               </p>
               <p className="flex items-center gap-2">
-                <FaEnvelope className="text-purple-400 text-lg" /> stanleycao24@gmail.com
+                <FaEnvelope className="text-purple-400 text-lg" /> caostan02@gmail.com
               </p>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Contacts() {
             <a href="https://www.linkedin.com/in/stanley-cao/" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">
               <FaLinkedin />
             </a>
-            <a href="mailto:stanleycao24@gmail.com" className="hover:text-purple-400 transition">
+            <a href="mailto:caostan02@gmail.com" className="hover:text-purple-400 transition">
               <FaEnvelope />
             </a>
             <a href="https://open.spotify.com/user/1otrs3dn3ctgfhj1bdflj0e6t?si=cb3e7cc875034471" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition">

@@ -16,7 +16,7 @@ export default function Hero() {
           </h1>
   
           <p className="text-gray-400 mb-8">
-            I am a Computer Science student currently seeking new graduate opportunities in Software Engineering.
+            I’m an MSc Applied Computing (AI) student at the University of Toronto and a Software Engineer Intern at Super.com, interested in opportunities in Machine Learning, Artificial Intelligence, and Software Engineering.
             I love building (and occasionally designing) fun digital experiences.
           </p>
   
